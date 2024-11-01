@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url(image/img_mountains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    background-color: transparent;
+    height: 30px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+.logo{
+    margin-left: -300px;
+  font-weight: bold;
+  
+}
+span{
+    color: slategray;
+    text-decoration:overline;
+    font-style: italic;
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+ 
+}
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 50px;
+    font-family:Calibri;
+    color: rgb(78, 67, 67);
+    font-weight: bold;
+   
+}
+
+h3{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-decoration:wavy;
+    font-family:Tahoma;
+}
+
+.input{
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: black;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    font-family:monospace ;
+    font-size: 15px;
+    
+
+}
+
+::placeholder{
+    font-family:monospace ;
+    font-size: 15px;
+    
+}
+button{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 107, 114);
+    padding: 4px 10px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.js-enter{
+    margin-top: 20px;
+    background-color: rgb(50, 87, 189);
+    border: 1px solid rgb(78, 58, 58);
+    padding: 5px 10px;
+}
+footer {
+    margin-top: 480px;
+    background-color: bisque;
+
+  margin-left: -1090px;
+}
